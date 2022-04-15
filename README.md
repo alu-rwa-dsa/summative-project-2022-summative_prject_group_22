@@ -1,6 +1,6 @@
 # Final-Jan-April-2022
 # About
-This programme is Queue management System  software that systematically records the customers in first come bases and assigns them priority of serves in order of who came first . 
+This programme is Queue management System  software that systematically records the customers in first come bases and assigns them priority of services in order of who came first . 
 With this software in business places , customers  do not have to physically wait in long lines and wait idly to get services but rather they have free time while they wait and they can look around the business premises busting customer loyalty and sales  . 
 This project has a user friendly environment thatshows the tellers available and the approximate time on the waiting line.
 # OutStanding Trait 
