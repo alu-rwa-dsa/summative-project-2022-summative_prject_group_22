@@ -12,13 +12,20 @@ The program has also intergrated JavaScript to make it a responsive site.
 It is Deployed on Heroku App and it can be access us this link http://customer_queue.herokuapp.com
 To run this program local on your computer install the following extentions the following order 
 python -m env env
+
 cd env
+
 .\Scripts\activate
 cd ..
+
 pip install -r requirements.txt
+
 python manage.py makemigrations
+
 python manage.py migrate
+
 python manage.py runserver
+
 // To create a user. Open new shell at root
 python manage.py createsuperuser
 // fill the info
