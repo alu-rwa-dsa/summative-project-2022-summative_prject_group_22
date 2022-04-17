@@ -1,5 +1,11 @@
-Adama Boubacar Oumarou ==> Readmes/testing
-Delyce Twizeyimana ==> Platform development
-Lievin Niyoyandika ==> Platform development
-Yann Nguidjoi ==> Platform development
-Kezia Wahome == Readmes/testing
+# Contributors
+
+### Platform development
+1. Delyce Twizeyimana 
+2. Lievin Niyoyandika 
+3. Yann Nguidjoi
+
+### Testing
+1. Adama Boubacar Oumarou 
+2. Kezia Wahome
+
