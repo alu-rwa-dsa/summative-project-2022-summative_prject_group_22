@@ -16,7 +16,7 @@ This functionality solves our problem and customers services is efficient and is
 We used Django tool to create a user friendly GUI for our program.
 The program has also intergrated JavaScript to make it a responsive site.
 It is Deployed on Heroku App and it can be access us this link http://customer_queue.herokuapp.com
-To run this program local on your computer install the following extentions the following order
+To run this program local on your computer you must have python intepreter if you don't have it you should download and install it from here: https://www.jetbrains.com/pycharm/download/#section=windows and Running environment. then go ahead install the following extentions on the following order
 ```
 python -m venv venv
 
