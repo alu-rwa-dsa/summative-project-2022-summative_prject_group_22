@@ -4,6 +4,7 @@
     margin: 0;
 
     padding:0;
+    box-sizing: border-box;
 }
 
 body {
@@ -52,6 +53,7 @@ a {
     width: 12rem;
     border: 0;
     text-align: center;
+ 
 }
 .add {
     font-family: "Lexend";
@@ -71,6 +73,7 @@ a {
   
     
 }
+
 .all{
     position: relative;
     top: 15rem;
@@ -87,9 +90,14 @@ a {
     color: #1B73E8;
     font-size: 6rem;
     margin-top: 3rem;
+ 
     /* margin-bottom: -1rem; */
 
 
+}
+.wel{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    background-color: red !important;
 }
 
 .intro{
@@ -111,11 +119,11 @@ a {
 
 .guidance{
     display: flex;
-    box-shadow: 2px 2px 2px 2px rgba(68, 68, 68, 0.137);
+    
     width: 40%;
     gap: 3rem;
     position: relative;
-    top: 8rem;
+ 
     font-family: "Lexend";
     border-radius: 20px;
     padding: 1rem;
@@ -151,10 +159,14 @@ a {
 .notify-p{
     margin-bottom: 2rem;
 }
+.code{
+    margin-bottom: 1rem;
+}
 
 .checkout{
     background-color: red;
     margin-bottom: 1rem;
+    margin-top: 1rem !important;
     border-radius: 5px;
     width: 8rem;
     border: 0;

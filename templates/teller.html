@@ -11,11 +11,13 @@
 </head>
 
 <body>
-    <div class="wel">
-        <h2 class="welcome">Welcome </h2>
-
+    <div class="wel" style="position: fixed; top: 0 !important;    z-index: 100; box-shadow: 2px 2px 2px 2px rgba(68, 68, 68, 0.137); background-color: white; width: 100%; text-align: center;">
+        <h1 class="welcome" style="margin-bottom: 0 !important;">Welcome!!!</h1>
+        
+    <p style="">Your time, our concern</p>
+    <p class="" style="text-align: center; margin-bottom: 1rem;"> Pick a teller of your choice</p>
     </div>
-    <div>
+    <div style="position: relative; top: 20rem; bottom: 5rem;">
         <h2>Current customer:{{teller.get_next_customer}}</h2>
         <h2>{{teller.get_next_customer.name}}</h2>
         <h2>{{teller.get_next_customer.code}}</h2>
@@ -28,7 +30,7 @@
 
 
 
-    <div class="all">
+    <div class="all" style="position: relative; top: 25rem;">
         <div class="teller">
             <h2 class="telle">Teller information</h2>
             <div class="tell_all">
@@ -44,7 +46,7 @@
 
             </div>
         </div>
-        <div class="on">
+        <div class="on" style="">
             <div class="notify-div">
                 <h1 class="notify"></h1>
                 <p class="notify-p"></p>
@@ -52,7 +54,7 @@
             <h1 class="telle">Management</h1>
             <div class="checks">
                 <form action="{{ teller.get_register_url}}">
-                    <input class="custName" type="text" placeholder="Your name" name="name" required>
+                    <input style="height: 5vh;" class="custName" type="text" placeholder="Your name" name="name" required>
                     <button class="add">Check in</button>
 
                 </form>
@@ -63,8 +65,8 @@
 
             <div class="customer">
                 <h3>Name: {{customer.name}}</h3>
-                <h3>code: {{customer.code}}</h3>
-                <button style="background-color: none; border: 0;"><a class="checkout" id="{{customer.code}}"
+                <h3 class="code">code: {{customer.code}}</h3>
+                <button style="background-color: none; border: 0; margin-top: 1rem; margin-bottom: 1rem;"><a class="checkout" id="{{customer.code}}"
                         href="{{customer.get_delete_url}}">Check out</a></button>
             </div>
             {% endfor %}
@@ -72,7 +74,7 @@
         </div>
     </div>
 
-    <div class="countD">
+    <div class="countD" style="position: relative; top: 30rem;">
         <h1 class="telle">Count down</h1>
         <hr>
         <p>Your average estimated time to wait is <strong class="strong">{{teller.get_estimated_time}} </strong> minutes
@@ -86,7 +88,7 @@
 
     </div>
 
-    <footer>
+    <footer style="position: relative; top: 30rem;">
         <small>&copy; Copyright 2022, group XXX</small>
 
 
