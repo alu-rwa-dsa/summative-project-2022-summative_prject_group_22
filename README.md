@@ -9,7 +9,7 @@ This project has a user friendly environment thatshows the tellers available and
 # OutStanding Trait
 
 This software saves the number of customers  in the business premises that a teller serves hence improving the efficiency. A Teller will be keen on saving time and serving as many customers as possible  efficiently .
-This functionality solves our problem and customers services is efficient and is saved!
+This functionality solves our problem and customers services is efficient and time is saved!
 
 # Requirments
 
